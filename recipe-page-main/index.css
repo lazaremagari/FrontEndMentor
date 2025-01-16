@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
+ol{
+    margin-left: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+}
+section{
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 1200px;
+    padding-left: 30px;
+    height: 2050px;
+
+}
+
+h1{
+    font-family: "Young Serif", serif;
+}
+h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+.main-things-here img{
+    width: 1135px;
+    border-radius: 20px;
+}
+.prepare-div h6{
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+.prepare-div{
+    background-color: #fff1fa;
+
+}
+.allinone{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 90px;
+}
+td{
+    border-bottom: 1px solid hsl(332, 51%, 32%);
+    border-collapse: collapse;
+    padding-left: 85px;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 200px;
+}
+
+hr{
+    width: 1145px;
+}
