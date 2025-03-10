@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+section{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.buttons button{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    gap: 10px;
+}
+p{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
+img{
+    border-radius: 50%;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+    margin-bottom: 70px;
+}
+.special{
+    color: yellow;
+}
+.profile-and-img{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.boom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 53.60%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit", serif;
+}
+.info p{
+    color: hsl(215, 28%, 63%);
+}
+.eth-and-other p{
+    color: #ffffff;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(215, 50%, 16%);
+    width: 700px;
+    height: 1000px;
+    align-items: center;
+    border-radius: 40px;
+
+}
+.BEST-THING-EVER{
+    border-color: hsl(215, 32%, 27%);
+}
+.allinone{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile p{
+    color: #ffffff;
+}
+.profile img{
+    width: 40px;
+    border: 1px solid rgb(129, 236, 129);
+    border-radius: 20px;
+}
+.eth-and-other{
+    display:flex;
+    gap: 50px;
+}
+.real-eth{
+    display: flex;
+}
+.time{
+    display: flex;
+    padding-left: 350px;
+}
+.attribution{
+    display: flex;
+}
+.mainn{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
